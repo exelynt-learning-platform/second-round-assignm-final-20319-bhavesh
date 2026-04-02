@@ -1,0 +1,16 @@
+package com.shopease.exception;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ResponseStatus(HttpStatus.BAD_REQUEST)
+public class CartEmptyException extends RuntimeException {
+
+    public CartEmptyException() {
+        super("Cannot create order from an empty cart");
+    }
+
+    public CartEmptyException(String message) {
+        super(message);
+    }
+}

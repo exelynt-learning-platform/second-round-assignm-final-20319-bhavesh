@@ -1,0 +1,8 @@
+com\shopease\controller\AuthControllerIntegrationTest.class
+com\shopease\service\AuthServiceTest.class
+com\shopease\controller\ProductControllerIntegrationTest.class
+com\shopease\security\JwtTokenProviderTest.class
+com\shopease\service\ProductServiceTest.class
+com\shopease\service\OrderServiceTest.class
+com\shopease\service\CartServiceTest.class
+com\shopease\service\PaymentServiceTest.class
